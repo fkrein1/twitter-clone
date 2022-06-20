@@ -1,10 +1,12 @@
 import React from 'react';
+import Feed from '../Feed';
 
 import {
   Container,
   Banner,
   Avatar,
   ProfileData,
+  EditButton,
   LocationIcon,
   CakeIcon, 
   Followage,
@@ -18,13 +20,13 @@ const ProfilePage: React.FC = () => {
       </Banner>
 
       <ProfileData>
-        {/* <EditButton outlined>Editar Perfil</EditButton> */}
+        <EditButton outlined>Editar Perfil</EditButton>
 
         <h1>Felipe Krein Rocha</h1>
         <h2>@fkrein1</h2>
 
         <p>
-          Front-end Developer at 
+          Front-end Developer
         </p>
 
         <ul>
@@ -47,6 +49,7 @@ const ProfilePage: React.FC = () => {
         </Followage>
 
       </ProfileData>
+      <Feed />
     </Container>
   );
 }
