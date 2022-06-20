@@ -24,20 +24,20 @@ const Tweet: React.FC = () => {
     <Container>
       <Retweeted>
         <RocketseatIcon />
-        Você retweetou
+        You retweeted
       </Retweeted>
       <Body>
         <Avatar />
         <Content>
           <Header>
-            <strong>Rocketseat</strong>
-            <span>@rocketseat</span>
+            <strong>дэн</strong>
+            <span>@dan_abramov</span>
             <Dot />
             <time>27 de jun</time>
           </Header>
 
           <Description>
-            Foguete não tem ré 🚀
+            npm audit: Broken by Design
           </Description>
           <ImageContent />
           <Icons>

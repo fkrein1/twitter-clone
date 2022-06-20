@@ -20,9 +20,9 @@ const ProfilePage: React.FC = () => {
       </Banner>
 
       <ProfileData>
-        <EditButton outlined>Editar Perfil</EditButton>
+        <EditButton outlined>Edit Profile</EditButton>
 
-        <h1>Felipe Krein Rocha</h1>
+        <h1>Felipe Krein</h1>
         <h2>@fkrein1</h2>
 
         <p>
@@ -36,15 +36,15 @@ const ProfilePage: React.FC = () => {
           </li>
           <li>
             <CakeIcon />
-            Nascido em 11 de Janeiro de 1989
+            Born in January of 1989
           </li>
         </ul>
         <Followage>
           <span>
-            seguindo <strong>232</strong>
+            following <strong>232</strong>
           </span>
           <span>
-            <strong>449 </strong> seguidores
+            <strong>449 </strong> followers
           </span>  
         </Followage>
 
