@@ -57,7 +57,7 @@ const SideBar: React.FC = () => {
               <News
                 title="JetBlue Lifts Offer for Spirit, Commits to Selling Assets"
                 description="Spirit had postponed a shareholders&apos; vote on merger with Frontier as it weighs competing offer from JetBlue."
-              />
+              />,
             ]}
           />
         </Body>
