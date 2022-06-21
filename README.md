@@ -1,5 +1,5 @@
 # Twitter UI Clone
-A responsive clone of Twitter Interface using React and Styled Components.
+A responsive clone of Twitter Interface using React, Typescript and Styled Components.
 <br>
 <br>
 <a href="https://fkrein1.github.io/twitter-clone/">Twitter UI Clone Webpage</a>
